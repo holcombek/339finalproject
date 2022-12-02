@@ -1,38 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Guide to Utah National Parks</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Guide to Utah National Parks</title>
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body> 
-	<a class = "skip" href="#main">Skip to Main Content</a>
-    <header>
-        <nav>
-          <ul class="nav_links">
-            <li class="nav_item"><a href="home.html">Home</a></li>
-            <li class="nav_item"><a href="bryce.html">Bryce Canyon National Park</a></li>
-            <li class="nav_item"><a href="zion.html">Zion National Park</a></li>
-          </ul>
-      </nav>
+
+<body>
+  <a class="skip" href="#main">Skip to Main Content</a>
+  <header>
+    <nav>
+      <h1>Zion National Park</h1>
+      <ul class="nav_links">
+        <li><a href="home.html" class="nav_item">Home</a></li>
+        <li><a href="bryce.html" class="nav_item">Bryce Canyon National Park</a></li>
+        <li><a href="zion.html" class="nav_item">Zion National Park</a></li>
+      </ul>
+    </nav>
   </header>
   <main class="container" id="main">
-    <h1>Zion National Park</h1>
-    <p>This will be the main content</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, delectus id? Molestias eveniet vel dolore similique sapiente ullam, omnis odit aliquam numquam optio consectetur dignissimos nihil, assumenda iusto voluptatum tenetur!</p>
-    <img src="images/zion1.jpg" alt=""/>
-    <img src="images/zion2.jpg" alt=""/>
-    <img src="images/zion3.jpg" alt=""/>
-    <img src="images/zion4.jpg" alt=""/>
-    <img src="images/zion5.jpg" alt=""/>
-    <img src="images/zion6.jpg" alt=""/>
-    <img src="images/zion7.jpg" alt=""/>
-    <img src="images/zion8.JPG" alt=""/>
-    <img src="images/zion9.JPG" alt=""/>
+    <p>Zion National Park is a great park to visit -- it offers day hikes, backpacking, rafting, and more. To get the
+      full experience, I recommend at least 2-3 days to hit all the hikes and views you'd like to see. Unlike Bryce
+      Canyon, Zion offers two areas of the park - the Zion Canyon
+      and the Kolob Canyon Area. Zion Canyon, while holding the most popular views and hikes, is much more crowded.
+      The Kolob Canyon area offers a more quiet feel of the park -- different views and a different landscape as well.
+      Between these two parks, there is plenty to fill
+      your days with. </p> <br>
+    <p>In the main park, there is a shuttle service that takes you through the main part of the park and gives easy
+      access to every hike in the park. Although it can be crowded at times, it removes the struggle of finding parking
+      and is much more environmentally friendly. They even offer the service
+      throughout the town just outside the park, for those that chose to stay in a hotel on the main road. In addition,
+      there is an area just inside the park that allows for RV camping right by a main trailhead.
+    </p>
+    <br>
+    <p>
+
+    </p>
+    <div class="buttons">
+      <button type="button" class="control" data-filter="all">All</button>
+      <button type="button" class="control" data-filter=".zion">Zion</button>
+      <button type="button" class="control" data-filter=".kolob">Kolob</button>
+    </div>
+    <!-- flexbox -->
+    <div class="flexgallery" id="zimg">
+      <figure class="mix zion">
+        <img src="images/zion1.jpg" alt="Canyon mountain peaks in the morning" />
+        <figcaption>Mountain peaks in the morning in Zion Canyon</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion2.jpg" alt="Desert plants on a hill with canyon peaks in the background" />
+        <figcaption>Desert plants on a trail in Zion Canyon</figcaption>
+      </figure>
+      <figure class="mix kolob">
+        <img src="images/zion3.jpg" alt="A far off mountain view in the Kolob Canyon" />
+        <figcaption>Mountains in the distance in Kolob Canyon</figcaption>
+      </figure>
+      <figure class="mix kolob">
+        <img src="images/zion6.jpg" alt="Trees within high canyon walls in the Kolob Canyon" />
+        <figcaption>High canyon walls on a Kolob Canyon trail</figcaption>
+      </figure>
+      <figure class="mix kolob">
+        <img src="images/zion5.jpg" alt="Wide shot of of the Kolab Canyon Mountain Peaks" />
+        <figcaption>The Kolob Canyon mountain peaks</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion7.jpg" alt="A small stream with rocks below tall forest trees" />
+        <figcaption>Crossing a stream on a trail in Kolob Canyon</figcaption>
+      </figure>
+      <figure class="mix kolob">
+        <img src="images/zion4.jpg" alt="Kolob Canyon square mountain peak" />
+        <figcaption>One of the mountains in Kolob Canyon</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion9.jpg" alt="Canyon wall in the morning light on the Riverside Walk Trail" />
+        <figcaption>A canyon wall on the Riverside Walk Trail</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion8.jpg" alt="Mountain peaks of gradually lightening color in Zion" />
+        <figcaption>Mountain peaks of changing color in Zion</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion12.jpg" alt="Overview of the Zion Canyon from the Angel's Landing Trail" />
+        <figcaption>An overview of Zion Canyon from the Angel's Landing Trail</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion13.jpg"
+          alt="The Subway trail with curving canyon walls and a person walking through the river" />
+        <figcaption>Inside the walls on the Subway Trail in Zion Canyon</figcaption>
+      </figure>
+      <figure class="mix zion">
+        <img src="images/zion10.jpg" alt="Wide shot of a river within the canyon walls on the Narrows Trail" />
+        <figcaption>On the river on the Narrows Trail in Zion Canyon</figcaption>
+      </figure>
+    </div>
+    <button onclick="toTop()" id="top" title="Back to Top">Top</button>
   </main>
-  <script src="js/work.js"></script>  
+  <script src="js/work.js"></script>
+  <script src="js/mixitup.min.js"></script>
+
+  <script>
+    var containerEl = document.querySelector('.flexgallery');
+
+    var mixer = mixitup(containerEl);
+  </script>
 </body>
 <footer>
-  SI 339: Kristina Holcombe Final Project Fall 2022
+  University of Michigan School of Information <br />
+  &copy; Kristina Holcombe Final Project - Web Design Fall 2022
+
 </footer>
+
 </html>

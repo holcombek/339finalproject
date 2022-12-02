@@ -1,34 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Guide to Utah National Parks</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Guide to Utah National Parks</title>
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body> 
-	<a class = "skip" href="#main">Skip to Main Content</a>
-    <header>
-      <nav>
-        <ul class="nav_links">
-          <li class="nav_item"><a href="home.html">Home</a></li>
-          <li class="nav_item"><a href="bryce.html">Bryce Canyon National Park</a></li>
-          <li class="nav_item"><a href="zion.html">Zion National Park</a></li>
-        </ul>
+
+<body id="body1">
+  <!-- <a class = "skip" href="#main" tabindex="0">Skip to Main Content</a> -->
+  <header>
+    <a class="skip" href="#main1" tabindex="0">Skip to Main Content</a>
+    <nav>
+      <h1>Your Guide to Utah National Parks</h1>
+      <ul class="nav_links">
+        <li><a href="home.html" class="nav_item">Home</a></li>
+        <li><a href="bryce.html" class="nav_item">Bryce Canyon National Park</a></li>
+        <li><a href="zion.html" class="nav_item">Zion National Park</a></li>
+      </ul>
     </nav>
   </header>
-  <main class="container" id="main">
-    <h1>Your Guide to Utah National Parks</h1>
-    <p>Ever wanted to go out west and visit national parks? Here's a complete guide to
-        two of Utah's most visited national parks -Bryce Canyon National Park and Zion National Park. If you are interested in other parks, here are some links
-        to a few of my other favorite national parks.
+  <main class="container" id="main1">
+    <div class="changefont">
+      <div class="inner">
+    <p>Have you ever wanted to go out west and visit Utah's national parks? I was in that same spot last year as I was
+      planning my summer, and ended up choosing these two parks to visit over a week long trip. Had I had more time,
+      I definitely would have added more onto to my trip. With that, here's a complete (amateur's) guide to
+      two of Utah's most visited national parks - <a href='https://www.nps.gov/brca/index.htm' target="_blank">Bryce
+        Canyon</a> and <a href='https://www.nps.gov/zion/index.htm' target="_blank">Zion</a>.
+      Included are recommend hikes, photo spots, and general tips coming from an amateur hiker.
+      <br>
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi temporibus doloremque, sunt earum asperiores perspiciatis itaque iure impedit nihil est, distinctio voluptatum veniam voluptates, necessitatibus ipsum ab ex eius.
-    </p>
+    <p>These two parks have a long history in the national parks system, with Zion being established in 1919 by the
+      National Park Service and Bryce Canyon in 1928. With nearly 5 million visitors in 2021, Zion is one of the most
+      popular national parks.
+      Bryce Canyon is less popular, with only about 2.1 million visitors in 2021, but offers its own unique views and
+      activities. The number of visitors per year has surely increased, especially in recent years, so carefully
+      planning out your trip is important to
+      ensure you can see everything on your list without being in a crowd the entire time. </p>
+    </div>
+    </div>
+      <div class="aboutme">
+      <img src="images/kolab1.jpg" alt="A person facing back in the walls of a canyon with trees around them">
+      <img src="images/sideofrock.jpg" alt="A person smiling with their thumbs up on the side of a rock">
+      <img src="images/kolab2.jpg" alt="A person facing the camera smiling with a large mountain in the background">
+    </div>
+    <div class="changefont">
+      <div class="inner">
+      <p>My mom and I went the first week of May and found that while there was some crowds of school trips or family
+        trips, we were able to hit every hike on our list without any major crowds. In addition, the weather was perfect
+        (coming from a Michigan resident)
+        especially as Utah can reach nearly 100 degrees farenheit during the months of July and August. So, depending on
+        your temperature sensitivity, planning around the weather is the recommended way to go.  As you can see above, I dressed
+        comfortably for the weather and any potential changes in temperature.
+      </p>
+      </div>
+    </div>
+    <img src="images/highway.jpg" alt="Two people standing on an edge looking over a canyon with a winding road" class ="aboutme"id="special">
+    <div class="changefont">
+      <div class="inner">
+      <p>There are many national parks in the west and multiple just in Utah, so wherever you decide to go, I wish you
+        happy hiking and great weather!</p>
+      <p>If you are interested in other parks, here are some links
+        to a few of my other favorite national parks.</p>
+      <p>Other National Parks</p>
+      <ul class="ideas">
+        <li><a href='https://www.nps.gov/acad/index.htm' target="_blank">Acadia National Park</a></li>
+        <li><a href='https://www.nps.gov/arch/index.htm' target="_blank">Arches National Park</a></li>
+        <li><a href='https://www.nps.gov/glac/index.htm' target="_blank">Glacier National Park</a></li>
+        <li><a href='https://www.nps.gov/mora/index.htm' target="_blank">Mount Rainier National Park</a></li>
+        <li><a href='https://www.nps.gov/olym/index.htm' target="_blank">Olympia National Park</a></li>
+      </ul>
+    <br>
+    </div>
+    </div>
+    <button onclick="toTop()" id="top" title="Top">Top</button>
   </main>
-  <script src="js/work.js"></script>  
+  <script src="js/work.js"></script>
 
 </body>
 <footer>
-  SI 339: Kristina Holcombe Final Project Fall 2022
+  University of Michigan School of Information <br />
+  &copy; Kristina Holcombe Final Project - Web Design Fall 2022
 </footer>
+
 </html>
