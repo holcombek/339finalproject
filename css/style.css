@@ -13,6 +13,12 @@ body {
     color: #361500;
     font-size: 20px;
 }
+ul.ideas li{
+    list-style-type: circle;
+    display:list-item;
+    margin-left: 40%;
+    margin-right: 33%;
+}
 h1 {
     text-align: center;
     color: #361500;
